@@ -1,0 +1,32 @@
+{
+	"orders": [{
+		"orderName": "Order 1",
+		"orderId": "0",
+		"products": [{
+			"productName": "Kurkure",
+			"productId": "0",
+			"productURL":"image/Kurkure.jpg",
+			"description": "Kurkure is a brand of corn puffs, developed and produced by viknesh, the India division of PepsiCo. Named after the Hindi/Urdu word for \"crunchy\" the snack was developed entirely in India."
+		}, {
+			"productName": "Coca-Cola",
+			"productId": "1",
+			"productURL":"image/coca_cola.jpg",
+			"description": "Coca-Cola is a carbonated soft drink produced by The Coca-Cola Company. Originally intended as a patent medicine"
+		}]
+
+	}, {
+		"orderName": "Order 2",
+		"orderId": "1",
+		"products": [{
+			"productName": "KFC Fried Chicken",
+			"productId": "0",
+			"productURL":"image/fried_chicken.jpg",
+			"description": "Kentucky Fried Chicken, more commonly known by its initials KFC, is an American fast food restaurant chain that specializes in fried chicken."
+		}, {
+			"productName": "Farm House Pizza",
+			"productId": "1",
+			"productURL":"image/pizza.png",
+			"description": "Domino's Pizza Inc. is a large American pizza restaurant chain founded in 1960. The corporation is headquartered at the Domino's Farms Office Park in Ann Arbor, Michigan, United States."
+		}]
+	}]
+}

@@ -1,0 +1,9 @@
+/* Enter your custom styles here */
+.myMasterList.sapMLIB.sapMLIBSelected {
+    background: #5ed8bd;
+}
+
+.myButton.sapMBtn
+{
+	     width: 5rem !important;
+}

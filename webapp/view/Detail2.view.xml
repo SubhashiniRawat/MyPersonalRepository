@@ -1,0 +1,20 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.masterdetail.controller.Detail2"
+	xmlns:f="sap.ui.layout.form" xmlns:layout="sap.ui.layout" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="{productName}" showNavButton="true" navButtonPress="onNavBack">
+		<content>
+			<f:SimpleForm title="Product Details - {productId}">
+				<f:content>
+					<Label text="Product Name"/>
+					<Text text="{productName}"/>
+					<Label text="Description"/>
+					<Text text="{description}"/>
+					<Label text="Show Image"/>
+					<Button text="click me" class="myButton" press="handlePopoverPress"/>
+					<Label text="Go To preview mode"/>
+					<Link text="{productName}" href="{productURL}"></Link>
+				
+				</f:content>
+			</f:SimpleForm>
+		</content>
+	</Page>
+</mvc:View>
